@@ -1,0 +1,13 @@
+-- Create Database
+CREATE DATABASE studentdb;
+
+-- Use Database
+USE studentdb;
+
+-- Create Students Table
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    course VARCHAR(50)
+);
